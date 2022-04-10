@@ -1,0 +1,142 @@
+/* Main */
+
+body {
+    font-family: 'Poppins', serif;
+    margin: 0 10%;
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Colors */
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.green {
+   background-color: #9FC088; 
+   color: black;
+}
+.yellow {
+    background-color: #E8C07D; 
+   color: black;
+}
+.orange {
+    background-color: #CC704B; 
+   color: black;
+}
+.brown {
+    background-color: #614124; 
+   color: white;
+}
+
+/* Fonts */
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+
+.font-label {
+    font-size: 20px;
+}
+
+#header-font {
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold  {
+    font-weight: 700;
+}
+
+.montserrat {
+    font-family: 'Montserrat', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Text Styles Panel */
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Poppins', serif;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: inherit;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
